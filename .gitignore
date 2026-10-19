@@ -1,0 +1,33 @@
+# Python virtual environments & bytecode
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+
+# SQLite databases with real user data
+backend/instance/
+*.sqlite3
+*.sqlite
+*.db
+
+# Uploaded private accommodation photos
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Secret environment variables
+.env
+.env.local
+.env.*.local
+backend/.env
+frontend/.env
+
+# Node.js dependencies & production build
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# Editor & OS files
+.vscode/
+.DS_Store
+Thumbs.db
