@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # NestNear — Student Accommodation Website (Sri Lanka)
 
 **NestNear** is a beginner-friendly full-stack web application that helps university students across Sri Lanka find rooms, boarding houses, and annexes near their universities, and allows property owners to publish listings and manage booking requests.
@@ -172,3 +173,7 @@ Now open **http://localhost:5173** in your browser.
 - `PATCH /api/bookings/<id>/cancel` — Cancel a `Pending` booking request (`student` only)
 - `GET /api/owner/bookings` — List booking requests for the owner's properties (`owner` only)
 - `PATCH /api/bookings/<id>/status` — `Accept` or `Reject` a pending request (`owner` only; checks room availability and prevents overlapping confirmed bookings)
+=======
+# NestNear
+find accounmantion
+>>>>>>> 520f141bb215c953ae6914e2899405934089d7f3
